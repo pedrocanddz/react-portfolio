@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-header {
+    @apply text-claro-neve px-5 py-3 font-semibold hover:underline  hover:decoration-solid hover:decoration-sky-500;
+  }
+  .texto-header {
+    @apply text-claro-neve font-bold;
+  }
+  .icons{
+    @apply w-36 h-36;
+  }
+}
