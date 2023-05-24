@@ -2,44 +2,27 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <section>
-        <div>
-            <p className='text-5xl texto-header text-center py-30'>Meus status no GitHub</p>
-            <div className='flex p-10 items-center justify-center'>
-                <a href='https://github.com/pedrocanddz' target='blank'><img className='px-10' src="https://github-readme-stats-three-lake-84.vercel.app/api?username=pedrocanddz&count_private=true&show_icons=true&theme=tokyonight" alt="status no gitHub" /></a>
-                <a href='https://github.com/pedrocanddz' target='blank'><img className='px-10' src="https://github-readme-stats-three-lake-84.vercel.app/api/top-langs/?username=pedrocanddz&theme=tokyonight" alt="" /></a>
+    <section className='h-screen flex justify-around  items-center'>
+        <div data-aos='fade-up' data-aos-easing='ease-in-sine' data-aos-anchor-placement="top-bottom">
+            <p className='min-h-[50%] text-3xl texto-header text-center py-30' >Meus status no GitHub</p>
+            <div className='flex-col p-10 justify-center'>
+                <a className='my-2' href='https://github.com/pedrocanddz' target='blank'><img className='px-10 m-auto my-5' src="https://github-readme-stats-three-lake-84.vercel.app/api?username=pedrocanddz&count_private=true&show_icons=true&theme=tokyonight" alt="status no gitHub" /></a>
+                <a  href='https://github.com/pedrocanddz' target='blank'><img className='px-10 m-auto' src="https://github-readme-stats-three-lake-84.vercel.app/api/top-langs/?username=pedrocanddz&theme=tokyonight" alt="" /></a>
             </div>
         </div>
-        <div>
-                <p className='text-5xl texto-header text-center py-20'>Minhas Habilidades</p>
-            <div className='flex justify-center'>
-                <div className='px-10 justify-center'>
-                    <p className='text-4xl texto-header'>Avançado</p>
-                    <div>
-
-                    <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
-                    </div>
-                    <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
-
-                </div>
-                <div className='px-10 flex-col justify-center items-center'>
-                    <div>
-                    <p className='text-4xl texto-header'>Intermediário</p>
-
-                    </div>
-                    <div>
-
-                    <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                    </div>
-                </div>
-                <div className='px-10'>
-                    <p className='text-4xl texto-header'>Iniciante</p>
-
-                    <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                            
-                </div>
-
-            </div>
+        
+        <div className='min-h-[50%] w-1/4' data-aos='fade-down' data-aos-easing='ease-in-sine'>
+            <p className='text-3xl texto-header text-center py-30'>Linguagems</p>
+            <p className="text-2xl texto-claro text-left py-10">
+                Tenho conhecimento em algumas linguagems que tive contato durante a graduação ou através de cursos online
+            </p>
+            <ul className='texto-claro list-disc'>
+                <li>C</li>
+                <li>C++</li>
+                <li>HTML e CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
         </div>
     </section>
   )

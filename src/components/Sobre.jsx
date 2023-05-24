@@ -2,14 +2,14 @@ import React from 'react'
 
 const Sobre = () => {
   return (
-    <section className='flex items-center justify-around p-10'>
-        <div className='max-w-2xl text-claro-neve'>
-            <h2 className='text-8xl texto-header'>Olá!</h2>
-            <p className='text-3xl'>Me chamo Pedro e sou estudante de graduação em ciências da computação pela UFSCar (Universidade federal de São Carlos) - Campus Sorocaba</p>
-            <p className='text-3xl'>Atualmente busco me especilizar na área de <span className='text-bold'>Desenvolvimento Web</span></p>
+    <section className='flex h-screen justify-around items-center align-middle w-[95%]' >
+        <div className=' texto-claro text-5xl px-20' data-aos='fade-rigth' data-aos-easing='ease-in-sine'>
+            <p className=''>Olá!</p>
+            <p className=''>Sou o Pedro e faço graduação em ciências da computação pela UFSCar (Universidade federal de São Carlos) - Campus Sorocaba</p>
+            <p className=''>Atualmente busco me especilizar na área de <span className='text-claro-neve text-bold'>Desenvolvimento Web</span></p>
         </div>
-        <div className='w-96'>
-            <img className='object-contain rounded-full h-100' src="/src/img/perfil.jpg" alt="" />
+        <div data-aos='fade-left'>
+          <img className='w-[100%] h-auto max-w-[1500px] rounded-[5rem]'  src="/src/img/971.jpg" alt="" />
         </div>
     </section>
   )

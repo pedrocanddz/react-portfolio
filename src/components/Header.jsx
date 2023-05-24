@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-between p-4'>
+    <header className='flex w-full items-center justify-between p-4 fixed'>
         <div>
             <h1 className='texto-header'>My Portfolio</h1>
         </div>

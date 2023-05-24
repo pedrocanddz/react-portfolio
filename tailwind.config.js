@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
 export default {
   content: [
     "./index.html",
@@ -8,13 +9,27 @@ export default {
 
     extend: {
       colors: {
-        'azul-escuro' : '#0A192F',
-        'azul-border' : '#08162B',
         'claro-neve' : '#CEDAF2',
-        'navy' : '#000C66',
-        'azul': '#00ABE4',
+        'azul-claro' : '#818DA6',
+        'azul-escuro' : '#0A192F',
+        
     },
   },
 },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities, addComponents, e, prefix, config }) {
+      const newUtilities = {
+        '.horizontal-tb': {
+          writingMode: 'horizontal-tb',
+        },
+        '.vertical-rl': {
+          writingMode: 'vertical-rl'
+        },
+        '.vertical-lr': {
+          writingMode: 'vertical-lr'
+        }
+      }
+      addUtilities(newUtilities)
+    })
+  ],
 }

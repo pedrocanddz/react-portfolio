@@ -2,14 +2,18 @@ import React from 'react'
 
 const Static = () => {
   return (
-    <div className='flex-col text-white justify-center items-center '>
-        <div><a href="">
-            <img className='w-6 h-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+    <div className=' bottom-0 fixed right-10 py-5 text-center'>
+        <div className='py-2'><a href="">
+            <a href="https://github.com/pedrocanddz">
+                
+            <img className='w-8 h-8' src="https://img.icons8.com/nolan/64/github.png" alt="github"/>
+          
+            </a>
           </a></div>
-        <div><a href="">
-            <img className='w-6 h-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+        <div className='py-2'><a href="">
+        <img className='w-8 h-8' src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
           </a></div>
-        <div className='rotate-90'>pedrosousa@estudante.ufscar.br</div>
+        <div className='px-1 py-2 text-bold vertical-rl tracking-wider text-claro-neve'>pedrosousa@estudante.ufscar.br</div>
     </div>
   )
 }

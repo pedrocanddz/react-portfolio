@@ -10,6 +10,15 @@
     @apply text-claro-neve font-bold;
   }
   .icons{
-    @apply w-36 h-36;
+    @apply w-36 h-36 m-auto;
+  }
+  .texto-claro{
+    @apply text-azul-claro;
+  }
+  .hidden{
+    @apply opacity-0 delay-1000;
+  }
+  .animate{
+    @apply opacity-100;
   }
 }
