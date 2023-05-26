@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projetos = () => {
   return (
-    <section className='h-screen flex justify-center align-center items-center '>
+    <section className='h-screen flex justify-center align-center items-center pt-10'>
         <div className='texto-claro w-80' data-aos='fade-down'>
             <h2 className='text-4xl'>Projetos</h2>
             <ul className='mt-8'  >
