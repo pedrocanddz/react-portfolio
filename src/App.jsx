@@ -1,11 +1,11 @@
-import React,{useEffect} from 'react'
-import Header from './components/Header.jsx'
-import Static from './components/Static.jsx'
-import Sobre from './components/Sobre.jsx'
-import Skills from './components/Skills.jsx'
-import Projetos from './components/Projetos.jsx'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import React,{useEffect} from 'react';
+import Header from './components/Header.jsx';
+import Static from './components/Static.jsx';
+import Sobre from './components/Sobre.jsx';
+import Skills from './components/Skills.jsx';
+import Projetos from './components/Projetos.jsx';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
   useEffect(() => {

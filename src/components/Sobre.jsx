@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import img1 from '../img/971.jpg';
 
 const Sobre = () => {
   return (
@@ -9,7 +10,7 @@ const Sobre = () => {
             <p className=''>Atualmente busco me especilizar na área de <span className='text-claro-neve text-bold'>Desenvolvimento Web</span></p>
         </div>
         <div data-aos='fade-left'>
-          <img className='sm:w-[100%] w-[90%] h-auto max-w-[1500px] rounded-[5rem]'  src="/src/img/971.jpg" alt="" />
+          <img className='sm:w-[100%] w-[90%] h-auto max-w-[1500px] rounded-[5rem]'  src={img1} alt="" />
         </div>
     </section>
   )
