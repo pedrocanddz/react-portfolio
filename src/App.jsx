@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Static from './components/Static.jsx';
 import Sobre from './components/Sobre.jsx';
@@ -15,14 +16,20 @@ const App = () => {
   }, [])
 
   return (
+    <Router>
+      <div>
+        <Header></Header>
+        <div>
 
-    <div>
-      <Header></Header>
-      <Sobre></Sobre>
-      <Skills></Skills>
-      <Projetos></Projetos>
-      <Static></Static>
-    </div>
+          <Routes>
+            <Route exact path="/" element={<Sobre/>}></Route>
+            <Route exact path="/Skills" element={<Skills/>}></Route>
+            <Route exact path="/Projetos" element={<Projetos/>}></Route>
+          </Routes>
+        </div>
+        <Static></Static>
+      </div>
+    </Router>
   )
 }
 

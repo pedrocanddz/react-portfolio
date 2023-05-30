@@ -16,7 +16,7 @@ const Projetos = () => {
                         <p className='mt-2'>
                             Meu primeiro projeto é este portfolio, que foi desenvolvido
                             com o uso de ReactJS e TailwindCSS utilizando o Vite como bundler 
-                            e o GitHub Pages para hospedagem.
+                            e o DigitalOcean para hospedagem.
                         </p>
                         <div className='flex flex-wrap mt-2'>
                             <p className='p-1 mx-1 bg-claro-neve rounded-sm'>React</p>
