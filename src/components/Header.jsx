@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className='z-[100] flex w-full items-center justify-between p-2 fixed bg-[#1e5091]'>
+    <header className='z-[100] flex w-full items-center justify-between p-2 fixed bg-200'>
         <div>
             <h1 className='texto-header'><Link to="/">PedroSousa.social</Link></h1>
         </div>

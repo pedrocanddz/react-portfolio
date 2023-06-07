@@ -4,16 +4,16 @@
 
 @layer components {
   .btn-header {
-    @apply text-claro-neve px-5 py-3 font-semibold hover:underline  hover:decoration-solid hover:decoration-sky-500;
+    @apply text-text-100 px-5 py-3 font-semibold hover:underline  hover:decoration-solid hover:decoration-sky-500;
   }
   .texto-header {
-    @apply text-claro-neve font-bold;
+    @apply text-text-100 font-bold;
   }
   .icons{
     @apply w-36 h-36 m-auto;
   }
-  .texto-claro{
-    @apply text-azul-claro;
+  .texto-p{
+    @apply text-text-200;
   }
   .hidden{
     @apply opacity-0 delay-1000;
