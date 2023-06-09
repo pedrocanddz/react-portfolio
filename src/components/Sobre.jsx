@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../img/971.jpg';
+import img1 from '../img/971_30.jpg';
 
 const Sobre = () => {
   return (
