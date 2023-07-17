@@ -16,14 +16,27 @@ const Skills = () => {
             <p className="text-2xl texto-claro text-left py-10">
                 Tenho conhecimento em algumas linguagems que tive contato durante a graduação ou através de cursos online
             </p>
-            <ul className='texto-claro list-disc'>
+            <ul className='texto-claro list-disc grid grid-cols-2 gap-2 px-5'>
                 <li>C</li>
                 <li>C++</li>
                 <li>HTML e CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>Node.js</li>
+                <li>Java</li>
+                <li>C#</li>
+            </ul>
+            <p className='text-2xl texto-claro text-left py-10'>
+                Além disso utilizo de algumas ferramentas que me auxiliam no desenvolvimento de meus projetos como:
+            </p>
+            <ul className='texto-claro list-disc grid grid-cols-2 gap-2 px-5'>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Linux</li>
+                <li>Postman</li>
             </ul>
         </div>
+
     </section>
   )
 }
