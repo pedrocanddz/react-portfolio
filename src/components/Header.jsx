@@ -12,6 +12,7 @@ const Header = () => {
                 <ul className='flex items-center justify-around space-x-2 '>
                     <li className='btn-header'><Link to="/">Sobre</Link></li>
                     <li className='btn-header'><Link to="/Skills">Skills</Link></li>
+                    <li className='btn-header'><Link to="/Atividades">Atividades</Link></li>
                     <li className='btn-header'><Link to="/Projetos">Projetos</Link></li>
                 </ul>
             </nav>

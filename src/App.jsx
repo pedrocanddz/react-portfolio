@@ -5,6 +5,7 @@ import Static from './components/Static.jsx';
 import Sobre from './components/Sobre.jsx';
 import Skills from './components/Skills.jsx';
 import Projetos from './components/Projetos.jsx';
+import Atividades from './components/Atividades.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -24,6 +25,7 @@ const App = () => {
           <Routes>
             <Route exact path="/" element={<Sobre/>}></Route>
             <Route exact path="/Skills" element={<Skills/>}></Route>
+            <Route exact path="/Atividades" element={<Atividades/>}></Route>
             <Route exact path="/Projetos" element={<Projetos/>}></Route>
           </Routes>
         </div>
