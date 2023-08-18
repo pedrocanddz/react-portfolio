@@ -49,7 +49,8 @@ const Projetos = () => {
                                 <div className='px-2'>
                                     <p className='mt-2'>
                                         <h4>Movie Generator</h4>
-                                        <p>Projeto com em buscar os filmes mais populares e bem avaliador de uma API chamada Movie DataBase
+                                        <br />
+                                        <p>Projeto com o objetivo de buscar filmes mais populares e bem avaliados de uma API chamada Movie DataBase
                                             (TMDB) e exibir em uma lista com a imagem do filme, o título e a nota de avaliação.
                                             Além de adicionar o filme desejado em uma Watchlist possibilitando ver detalhes do filme no site do IMDB.
                                         </p>
