@@ -1,4 +1,5 @@
 import React from 'react';
+import arrow from '../img/arrow.png';
 
 const Projetos = () => {
   return (
@@ -6,26 +7,33 @@ const Projetos = () => {
         <div className='texto-claro w-80' data-aos='fade-down'>
             <h2 className='text-4xl'>Projetos</h2>
             <ul className='mt-8'  >
-                <li className='relative flex gap-6 pb-5 items-baseline' data-aos='fade-down'>
-                    <div className='before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-azul-claro'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-                            <circle cx="8" cy="8" r="8" />
-                        </svg>
-                    </div>
-                    <div className='text-sm'>
-                        <p className='mt-2'>
-                            Meu primeiro projeto é este portfolio, que foi desenvolvido
-                            com o uso de ReactJS e TailwindCSS utilizando o Vite como bundler 
-                            e o DigitalOcean para hospedagem.
-                        </p>
-                        <div className='flex flex-wrap mt-2'>
-                            <p className='p-1 mx-1 bg-claro-neve rounded-sm'>React</p>
-                            <p className='p-1 mx-1 bg-claro-neve rounded-sm'>JavaScript</p>
-                            <p className='p-1 mx-1 bg-claro-neve rounded-sm' >Tailwind</p> 
+                <a href="https://github.com/pedrocanddz/react-portfolio">
+                    <li className='relative flex gap-6 pb-5 items-baseline ' data-aos='fade-down'>
+                        <div className='before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-azul-claro'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8" />
+                            </svg>
                         </div>
-                        
-                    </div>
-                </li>
+                        <div className='text-sm flex justify-between hover:shadow-inner
+                         hover:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+                         hover:drop-shadow-lg py-4 px-2 rounded-lg'>
+                            <div>
+                                <p className='mt-2'>
+                                    Meu primeiro projeto é este portfolio, que foi desenvolvido
+                                    com o uso de ReactJS e TailwindCSS utilizando o Vite como bundler 
+                                    e o DigitalOcean para hospedagem.
+                                </p>
+
+                                <div className='flex flex-wrap mt-2'>
+                                    <p className='p-1 mx-1 bg-claro-neve rounded-md'>React</p>
+                                    <p className='p-1 mx-1 bg-claro-neve rounded-md'>JavaScript</p>
+                                    <p className='p-1 mx-1 bg-claro-neve rounded-md' >Tailwind</p> 
+                                </div>
+                            </div>
+                            <img className='w-[20px] h-[20px] m-auto align-rigth' src={arrow} alt="" />    
+                        </div>
+                    </li>
+                </a>
                 <li className='relative flex gap-6 pb-5 items-baseline' data-aos='fade-down'>
                     <div className='before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-azul-claro'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
